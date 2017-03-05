@@ -1,0 +1,128 @@
+body
+{
+	font-family: Trebuchet MS,Trebuchet, Arial, sans-serif;
+	margin: 20px;
+	max-width: 1200px;
+	max-height: 1200px;
+	font-size: 0;
+	
+}
+
+*
+{box-sizing: border-box;}
+
+a {text-decoration: none;}
+
+
+.top	{
+		background:#4a4f56;
+		display: inline-block;
+		height: auto;
+		width: 100%;
+		text-align: center;
+		color:#a45356;
+		font-size: 16px;
+		}
+.middle
+		{background:#3b3f45;
+			display: inline-block;
+			height: 500px;
+			width: 50%;
+			font-size: 16px;
+			text-align: center;
+			vertical-align: top;}
+
+		  label
+	{
+		display:block;
+		height: 40px;
+		width: 100%;
+		border-radius:20px;
+		padding-top: 10px;
+		border:1px solid #a59090;
+		font-size: 16px;
+		font-weight:bold;
+		text-align: left;
+		color:white;
+	}
+
+
+		
+		.left
+		{background:#3b3f45;
+			display: inline-block;
+			height: 500px;
+			width: 25%;
+			font-size: 16px;
+
+		}
+.rigtn
+		{background:#3b3f45;
+			display: inline-block;
+			height: 500px;
+			width: 25%;
+			font-size: 16px;
+
+		}
+
+			    #butoon
+    {
+    	display: inline-block;
+        margin-left:33.33%;
+		margin-right:33.33%;
+		padding: 10px;
+		width: 33.33%;
+		border-radius:20px;
+		background: #4a4f56;
+		font-size: 16px;
+		text-align: center;
+		border:1px solid black;
+		color: #a45356;
+	}
+		li {
+    list-style-type: none; 
+           }
+   		ul
+   		 {
+    margin-left: 0; 
+    padding-left: 0; 
+         }
+
+   
+	input[type="checkbox"]:checked ~ span
+		{
+			text-decoration: line-through;
+			color: #a3a0b5;
+		}
+
+ 	span.class2:before 
+	{content: '( ';}
+
+	span.class2:after 
+	{content: ')';}
+
+	.class2
+    {
+    	font-weight:normal;
+		font-size: 16px;
+		font-style: italic;
+		color: #cdcbd3;
+    }
+
+
+li:nth-child(1n)
+	{background: #88839e;
+		border-radius: 20px;}
+	
+	li:nth-child(even)
+	{background: #625e77;}
+
+	label:hover{
+		border: 2px solid white;
+		transition: all 0.5s ease;
+	    background: #625e77;
+	    color: #a3a0b5;
+	          }
+
+		a:hover{text-decoration: none;}
+	    a:active{background: yellow;}
